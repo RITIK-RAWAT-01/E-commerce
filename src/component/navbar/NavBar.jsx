@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import './NavBar.css'
+import './Navbar.css'
 import { images } from "../assets/Assets";
 import { Link, NavLink } from "react-router-dom";
 import { Shop_Context } from "../context/Shop_Context";

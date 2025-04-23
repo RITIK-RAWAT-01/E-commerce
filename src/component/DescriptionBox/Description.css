@@ -1,0 +1,25 @@
+.descriptionbox{
+    max-width: 1800px;
+    margin: 0px auto;
+    padding: 5rem 8rem;
+}
+.descriptionbox-navigator{
+    display: flex;
+}
+.descriptionbox-nav-box{
+    border: 1px solid rgb(146, 146, 146);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px 35px;
+}
+.descriptionbox-description{
+    border: 1px solid rgb(146, 146, 146);
+    font-size: 16px;
+    padding: 35px 33px;
+}
+.descriptionbox-description p{
+    padding-bottom: 30px;
+}
+.fade{
+    background-color: rgb(236, 236, 236);
+}

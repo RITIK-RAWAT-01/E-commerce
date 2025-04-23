@@ -1,0 +1,40 @@
+.offer{
+    max-width: 1800px;
+    margin: 5rem auto;
+}
+.offers{
+    margin: 0px auto;
+    max-width: 1250px;
+    display: flex;
+    background-image: linear-gradient(rgba(255, 164, 252, 0.735),white);
+    justify-content: space-evenly;
+    align-items: center;
+}
+@media screen and (min-width:1550px) and (max-width:100vw){
+    .offers{
+        max-width: 1500px;
+        background-image: linear-gradient(rgba(255, 164, 252, 0.735),white);
+
+    }
+}
+.offer-left{
+    width: 600px;
+}
+.offer-left h1{
+    font-size: 5rem;
+}
+.offer-left p{
+    font-size: x-large;
+}
+.offer-button button{
+    margin-top: 30px;
+    padding: 1rem 5rem;
+    border-radius: 50px;
+    background-color: red;
+    color:  white;
+    font-size: large;
+}
+
+.offer-right{
+    width: 300px;
+}

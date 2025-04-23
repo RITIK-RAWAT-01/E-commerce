@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.hero{
+    width: 100%;
+}
+.main{
+    background-image: linear-gradient(rgba(255, 164, 252, 0.735),white);
+    max-width: 1800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 8rem;
+}
+.hero-left{
+    width: 550px;
+    margin-top: 2rem;
+    line-height: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero-left p{
+    font-size: x-large;
+}
+.hand-logo{
+    display: flex;
+    align-items: center;
+}
+.hand-logo h1{
+    margin-right: 20px;
+}
+.hand-logo img{
+    width: 4rem;
+    height: 4rem;
+}
+.hero-left h1{
+    font-size: 5rem;
+}
+.errow button{
+    height: 0px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 13, 49);
+    color: white;
+    font-size: large;
+    padding: 30px 15px 30px 30px;
+    border-radius: 50px;
+}
+.errow img{
+    width: 4rem;
+    transform: rotate(-90deg);
+}
+
+
+
+.hero-right img{
+    height: 650px;
+    width: 600px;
+    display: flex;
+    padding-top: 2rem;
+    object-fit: cover;
+}

@@ -1,0 +1,29 @@
+.item{
+    width: 300px;
+    margin-bottom: 40px;
+}
+.item img{
+    /* width: 300px;
+    height: 370px; */
+    object-fit: cover;
+    cursor: pointer;
+}
+.item p{
+    margin-top: 10px;
+}
+.item img:hover{
+    transform: scale(1.05);
+    transition: 0.6s;
+}
+.price_item{
+    display: flex;
+    gap: 15px;
+    margin-top: 5px;
+}
+#old_price{
+    text-decoration: line-through;
+    color: gray;
+}
+
+
+  

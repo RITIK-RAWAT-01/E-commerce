@@ -1,0 +1,98 @@
+.Product-Display{
+    width: 100%;
+    margin: 0px auto;
+}
+.productdisplay{
+    max-width: 1800px;
+    margin: 0px auto;
+    padding: 5px 8rem;
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 2px solid red; */
+}
+.productdisplay-left{
+    display: flex;
+    /* border: 2px solid blue;  */
+}
+.productdisplay-left-img-list{
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.productdisplay-left-img-list img{
+    width: 100%;
+}
+.productdisplay-left-img img{
+    width: 750px;
+    height: 100%;
+    object-fit: cover;
+    padding-left: 15px;
+}
+.productdisplay-right{
+    /* border: 2px solid rgb(255, 0, 195); */
+    margin-left: 50px;
+}
+.productdisplay-right h1{
+    font-size: 38px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.productdisplay-right-star{
+    display: flex;
+    align-items: center;
+}
+.productdisplay-right-star img{
+    margin-right: 5px;   
+}
+.productdisplay-right-prices{
+    display: flex;
+    margin: 25px 0px;
+}
+.productdisplay-right-price-old{
+    margin-right: 35px;
+    text-decoration: line-through;
+    font-size: x-large;
+    color: rgb(77, 77, 77);    
+}
+.productdisplay-right-price-new{
+    font-size: x-large;
+    color: rgb(187, 50, 0);   
+}
+.productdisplay-right-description{
+    font-size: 15;
+}
+.productdisplay-right-size{
+    margin: 25px 0px 20px 0px;
+}
+.Product-sizes{
+    cursor: pointer;
+}
+.productdisplay-right-size h1{
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: rgb(45, 45, 45);
+}
+.productdisplay-right-sizes{
+    display: flex;
+}
+.productdisplay-right-sizes div{
+    padding: 25px 28px;
+    margin-right: 15px;
+    background-color: rgb(236, 236, 236);
+}
+.CARD-right{
+    padding: 12px 30px;
+    font-size: 18px;
+    color: white;
+    background-color: red;
+    margin-bottom: 25px;
+}
+.product-display-right-category{
+    color: rgb(74, 74, 74);
+    margin-bottom: 5px;
+}
+.product-display-right-category span{
+    color: black;
+    font-weight: 500;
+}

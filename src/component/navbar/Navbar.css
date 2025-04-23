@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navigationbaar{
+    width: 100%;
+    margin: 0px auto;
+    border-bottom: 1px solid rgb(211, 211, 211);
+}
+.navbar{
+    max-width: 1800px;
+    margin: 0px auto;
+    padding: 5px 8rem;
+    display: flex;
+    justify-content: space-between;
+}
+#img_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Card_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navlink{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 0px;
+}
+.logo img{
+    width: 70px;
+}
+.logo h1{
+    font-size: x-large;
+}
+.btn img{
+    width: 40px;
+    height: 40px;
+}
+.btn button{
+    font-size: large;
+    border: 1px solid black;
+    padding: 8px 40px;
+    border-radius: 50px;
+    margin-right: 30px;
+}
+.btn button:active{
+    background-color: gray;
+}
+#navlink li{
+    font-size: large;
+    margin: 30px 0px;
+}
+.btn .card-counter{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: -8px;
+    background-color: red;
+    border-radius: 100%;
+    padding: 5px;
+    color: white;
+}
+
+
+.sidebar-toggle{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    z-index: 20;
+    top: 30px;
+    /* position: fixed; */
+    cursor: pointer;
+}
+.spinner{
+    height: 3px;
+    background-color: black;
+    transition: all 0.2s;
+}
+
+#toggle{
+    display: none;
+}
+
+.spinner.middle,
+.spinner.bottum{
+    margin-top: 3px;
+}
+#toggle:checked ~ #navlink{
+    display: block;
+}
+#toggle:checked ~ .sidebar-toggle > .spinner.middle{
+    opacity: 0;
+}
+#toggle:checked ~ .sidebar-toggle > .spinner.top{
+    transform: rotate(135deg);
+    margin-top: 8px;
+}
+#toggle:checked ~ .sidebar-toggle > .spinner.bottum{
+    transform: rotate(-135deg);
+    margin-top: -9px;
+}
+
+
+
+@media screen and (max-width:1200px){
+    #navlink , #Card_img{
+        display: none;
+    } 
+    #img_logo{
+        display: flex;
+        height: 85px;
+        justify-content: center;
+        align-items: center;
+    }  
+    #toggle:checked ~ #navlink{
+        display: block;
+    }
+}
+
+@media screen and (min-width:1200px){
+    .toggle_menu{
+        display: none;
+    }    
+}

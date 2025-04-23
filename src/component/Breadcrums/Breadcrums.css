@@ -1,0 +1,13 @@
+.bureadcrumroute{
+    width: 100%;
+    margin: 0px auto;
+}
+.breadcrum{
+    max-width: 1800px;
+    margin: 20px auto;
+    padding: 5px 8rem;
+    display: flex;
+}
+.breadcrum img{
+    margin: 0px 10px;
+}

@@ -1,0 +1,48 @@
+.Form{
+    max-width: 1800px;
+    height: 100vh;
+    background-color: rgb(255, 231, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+.LoginSignup{
+    width: 650px;
+    padding: 3rem;
+    background-color: white;
+    border-radius: 10px;
+}
+.LogInSignUp_title h1{
+    font-size: xx-large;
+    font-weight: 500;
+}
+#input_filds{
+    border: 1px solid rgb(132, 132, 132);
+    width: 35rem;
+    padding: 20px 15px;
+    margin: 15px 0px;
+    font-size: large;
+}
+.submit_button button{
+    background-color: red;
+    color: white;
+    width: 35rem;
+    font-size: larger;
+    padding: 18px 15px;
+}
+.LogIn_Account{
+    font-size: large;
+    margin-top: 20px;
+}
+.LogIn_Account .LogIn_btn{
+    color: rgb(208, 0, 0);
+}
+.privacy_policy{
+    font-size: large;
+    margin-top: 25px;
+}
+.privacy_policy input[type = "checkbox"]{
+    padding: 50px;
+    margin-right: 20px;
+}

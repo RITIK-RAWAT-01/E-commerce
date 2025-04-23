@@ -3,7 +3,7 @@ import Shop from './cart_icon.png'
 import Slap from './slap.png'
 import Arrow from './A.png'
 import Girl from './girl.png'
-import Heroen from './Heroen.png'
+import Heroen from './heroen.png'
 import OfferImage from './offer-img.png'
 
 
